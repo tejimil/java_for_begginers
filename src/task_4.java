@@ -3,6 +3,8 @@ public class task_4 {
     public static void main(String args[]) {
         int a=0;
         int o=1;
+        System.out.println("Введите число в двоичном формате");
+        System.out.print(":");
        Scanner in = new Scanner(System.in);
        String b = in.nextLine();
        for(int i=0;i<b.length();i++){
